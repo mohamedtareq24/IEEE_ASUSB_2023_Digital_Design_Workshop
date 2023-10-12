@@ -1,4 +1,4 @@
-# Single Cycled RV32I with UART Tx 
+# Single Cycled RV32I
 
 This readme file will demonstrate how the RV32I can be implemented using Verilog HDL also will show the final system architecture.
 the file is divided into 3 major points, and they are.
@@ -48,13 +48,7 @@ and assembles to
 
 ### B- The architecture 
 ![image](https://user-images.githubusercontent.com/90535558/214970655-d3511e4d-e122-4e70-b4b2-924935b57182.png)
-#### system top
-![image](https://user-images.githubusercontent.com/90535558/221443588-df5ef055-5b3c-43e4-b24f-20c287646c95.png)
-Hint : out is a tap for the data port in the data memory; in this program as it counts we tap or "probe" the least significant byte 
-### The archricture will be devided into 3 parts 
-- The datapath
-- The controller 
-- The UART Tx
+
 
 ### C- Useful guidelines and references 
 - RISC-V ISA summary:  http://pages.hmc.edu/harris/ddca/ddcarv/DDCArv_AppB_Harris.pdf
